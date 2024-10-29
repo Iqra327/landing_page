@@ -20,4 +20,17 @@ body{
   @apply max-w-screen-2xl mx-auto flex
 }
 
+.bg-gradient-custom {
+  background: linear-gradient(90deg, #010035 20%, #020056 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(116.04deg, #F81A84 3.64%, #2200F3 95.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-background {
+  background: linear-gradient(180deg, #9281FF 0%, #2200F3 100%);
+}
 

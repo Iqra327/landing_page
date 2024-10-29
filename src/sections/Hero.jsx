@@ -21,7 +21,7 @@ function Hero() {
 
         <div className='absolute inset-0 font-figtree text-white text-center flex flex-col gap-4 items-center justify-center p-4 md:p-8 lg:p-12'>
         
-          <h1 className='font-bold text-60 max-lg:text-[40px] max-sm:text-16'>
+          <h1 className='font-bold text-60 max-lg:text-[40px] max-sm:text-base'>
             Event ticketing made simple
           </h1>
         

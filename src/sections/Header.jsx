@@ -36,7 +36,7 @@ function Header() {
           </div>
 
           {/*nav right side  */}
-          <div className='flex items-center justify-center gap-6 max-lg:hidden text-16 font-semibold'>
+          <div className='flex items-center justify-center gap-6 max-lg:hidden text-base font-semibold'>
             <p>Find Events</p>
             <p>Create Events</p>
 
@@ -73,7 +73,7 @@ function Header() {
         <div className='flex items-center gap-11 max-lg:hidden'>
           {rightList.map((text) => (
            <p className={
-              `text-16 ${text === 'Get Started' ? 'text-transparent bg-clip-text bg-gradient-to-r from-[#F81A84] to-[#2200F3]' : 'text-gray-700'} font-medium`
+              `text-base ${text === 'Get Started' ? 'text-transparent bg-clip-text bg-gradient-to-r from-[#F81A84] to-[#2200F3]' : 'text-gray-700'} font-medium`
             }>
               {text}
             </p>

@@ -9,13 +9,13 @@ export default {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, #010035 20%, #020056 100%)',
         'gradient' : 'linear-gradient(91.02deg, #9281FF 4.06%, #2200F3 96.16%)',
+        'gradient-pink' : 'linear-gradient(116.04deg, #F81A84 3.64%, #2200F3 95.71%)'
       },
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],
         figtree: ['Figtree', 'sans-serif']
       },
       fontSize: {
-        '16': ['16px', '19.2px'], 
         '14': ['14px', '16.8px'],
         '18': ['18px', '21px'],
         '60': ['60px', '72px'],

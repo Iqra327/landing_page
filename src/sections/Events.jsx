@@ -50,7 +50,7 @@ const Events = () => {
       </div>
 
      {/* cards */}
-      <div className='flex flex-wrap justify-between'>
+      <div className='flex flex-wrap gap-12'>
         {
           content.map((item) => (
             <div className='max-w-[340px] shadow-custom-light'>
@@ -73,7 +73,7 @@ const Events = () => {
                 </div>
                 <div className='flex items-center justify-center py-3 rounded-[4px] bg-gray-200 gap-2 mt-6'>
                   <IoTicket/>
-                  <p className='text-16'>
+                  <p className='text-base'>
                     Book Tickets
                   </p>
                 </div>
