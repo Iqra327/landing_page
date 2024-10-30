@@ -90,7 +90,7 @@ const Features = () => {
     </div>
 
     <div className='bg-custom-gradient flex flex-col justify-center items-center rounded-lg p-24 gap-5'>
-      <h1 className='font-bold text-40 text-white'>A simpler way to manage events</h1>
+      <h1 className='font-bold text-40 text-white text-center'>A simpler way to manage events</h1>
       <button className='bg-white text-pink-final rounded-md lg:p-3 max-lg:p-1 lg:mt-4 font-bold lg:text-xl max-sm:text-14'>
         Create event
       </button>
