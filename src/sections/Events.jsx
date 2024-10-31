@@ -52,8 +52,8 @@ const Events = () => {
      {/* cards */}
       <div className='flex flex-wrap gap-6 items-center justify-center'>
         {
-          content.map((item) => (
-            <div className='max-w-[294px] shadow-custom-light'>
+          content.map((item, index) => (
+            <div key={index} className='max-w-[294px] shadow-custom-light'>
               <img 
                 src={item.img} 
                 width={500}

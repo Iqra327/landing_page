@@ -46,7 +46,7 @@ const Footer = () => {
           <ul className='flex gap-x-24 gap-y-3 mr-14 flex-wrap'>
             {
               footerContent.map((footer) => (
-                <li className='flex flex-col gap-3'>
+                <li key={footer.h1} className='flex flex-col gap-3'>
                   <h2 className='font-semibold text-lg'>
                     {footer.h1}
                   </h2>

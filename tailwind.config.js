@@ -37,6 +37,8 @@ export default {
       },
       screens: {
         'lg-custom': '928px',
+        'lg-custom1': '1181px',
+        'lg-custom2': '1025px',
       },
     },
   },

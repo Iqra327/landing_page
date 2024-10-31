@@ -71,8 +71,8 @@ function Header() {
         </div>
 
         <div className='flex items-center gap-11 max-lg:hidden'>
-          {rightList.map((text) => (
-           <p className={
+          {rightList.map((text, index) => (
+           <p key={index} className={
               `text-base ${text === 'Get Started' ? 'text-transparent bg-clip-text bg-gradient-to-r from-[#F81A84] to-[#2200F3]' : 'text-gray-700'} font-medium`
             }>
               {text}

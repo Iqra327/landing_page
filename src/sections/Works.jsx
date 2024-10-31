@@ -18,16 +18,20 @@ const Works = () => {
 
     <div className='sm:relative'>
       <div className='flex max-sm:flex-wrap justify-between max-sm:hidden'>
-        <img 
-          src="images/girls.png" 
-          alt="img" 
-          className='object-contain'
-        />
+        <div>
+          <img 
+            src="images/girls.png" 
+            alt="img" 
+            className='object-contain'
+          />
+        </div>
+        <div>
           <img 
             src="images/happy.png" 
             alt="img"
             className='sm:mt-24 object-contain' 
           />
+        </div>
       </div>
 
       <div className='sm:absolute sm:inset-0 max-w-[933px] mx-auto'>

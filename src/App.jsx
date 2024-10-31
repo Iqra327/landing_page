@@ -1,4 +1,5 @@
 import Benefits from "./sections/Benefits"
+import Categories from "./sections/Categories"
 import Events from "./sections/Events"
 import FAQs from "./sections/FAQs"
 import Features from "./sections/Features"
@@ -20,6 +21,7 @@ function App() {
       <Events/>
       <Features/>
       <Pricing/>
+      <Categories/>
       <FAQs/>
       <HelpCenter/>
       <Footer/>

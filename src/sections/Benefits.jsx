@@ -32,8 +32,8 @@ const Benefits = () => {
   return (
     <main className='container flex-wrap justify-evenly gap-5 mt-9'>
       {
-        benefits.map((item) => (
-          <div className='relative'>
+        benefits.map((item, index) => (
+          <div key={index} className='relative'>
             <div>
               <img 
                 src={item.img} 

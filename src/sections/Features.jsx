@@ -68,7 +68,7 @@ const Features = () => {
     <div className='grid grid-cols-2 max-lg:grid-cols-1 gap-y-14 gap-x-24'>
       {
         content.map((item) => (
-          <div className='flex w-full items-center gap-7'>
+          <div key={item.heading} className='flex w-full items-center gap-7'>
             <div className='bg-gradient-custom rounded-full lg:w-[99px] lg:h-[99px] max-lg:w-20 max-lg:h-20 flex items-center justify-center flex-shrink-0'>
               <img 
                 src={item.img} 

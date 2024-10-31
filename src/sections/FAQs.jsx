@@ -56,8 +56,8 @@ const FAQs = () => {
 
     <div className='max-w-[870px] mx-auto p-7'>
       {
-        faq.map((faq) => (
-          <div className='py-4'>
+        faq.map((faq, index) => (
+          <div key={index} className='py-4'>
             <div className=' flex items-center justify-between text-dark-grey'>
               <h2 className='font-bold text-xl'>
                 {faq.question}
